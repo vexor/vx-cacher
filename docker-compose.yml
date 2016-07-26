@@ -1,0 +1,5 @@
+app:
+  build: .
+  command: tail -f /dev/null
+  volumes:
+    - ./:/app
